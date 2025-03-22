@@ -21,6 +21,7 @@ This Python script, jwt_confusion.py, is a command-line tool designed to demonst
 
 ### Features
 `JWT Parsing`: Parses JWT tokens into their header, payload, and signature components.
+
 `Payload Modification`: Allows modification of JWT payload claims. Supports setting string, boolean, numeric, null, and JSON values. Also supports relative modification of exp, nbf, and iat claims by adding or subtracting seconds.
 
 `Header Modification`: Allows modification of JWT header parameters.
