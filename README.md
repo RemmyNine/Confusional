@@ -48,8 +48,9 @@ sys
 os
 re
 typing
+
 Optional:
-cryptography (for RSA key generation and some attacks). Install with pip install cryptography. The script will function without it, but some advanced attacks will be unavailable.
+*cryptography (for RSA key generation and some attacks). Install with pip install cryptography. The script will function without it, but some advanced attacks will be unavailable.*
 
 ### Installation
 Clone this repository:
@@ -63,10 +64,12 @@ pip install cryptography
 
 
 Usage
-python3 jwt_confusion.py --token <JWT_TOKEN> --key <KEY_FILE> [OPTIONS]
+
+`python3 jwt_confusion.py --token <JWT_TOKEN> --key <KEY_FILE> [OPTIONS]`
 
 
 Arguments
+
 `--token, -t`: The JWT token to attack. Required unless --file is used.
 
 `--key, -k`: The key file (in PEM format) for signing or verification. Required for most attack types (except none and kid without key).
